@@ -1,39 +1,34 @@
-.button {
-  display: inline-flex;
-  padding: 10px 20px;
-  align-items: center;
-  background-color: blueviolet;
-  border-radius: 5px;
-  color: #fff;
+.text {
+  width: 300px;
 }
 
-.button::before {
-  content: '';
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-  background-color: red;
-  background-image: url("./images/rocket-icon.png");
-  background-position: center;
-  background-size: contain;
+.text::selection {
+  background-color: aquamarine;
+  color:blue
 }
 
-.list-item {
-  width: 350px;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
+.text::first-letter {
+  font-size: 48px;
+  color: lime;
 }
 
-.list-item::before {
-  content: '';
-  display: block;
-  height: 100px;
-  background-image: url(./icons/delivery-icon.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.text::first-line {
+  background-color: brown;
+}
+
+body {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+html {
+  font-size: 36px;
 }
 
